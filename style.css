@@ -26,7 +26,7 @@
     min-height: 100%;
     font-family: "sunday";
     font-size: 20px;
-    line-height: 42px;
+    line-height: 52px;
     font-weight: 400;
     color: #0B101B;
     background-color: rgb(216, 248, 219);
@@ -60,23 +60,23 @@
     padding: 0;
   }
   .main__section{
-    padding: 50px 15% 50px;
+    padding: 50px 5% 50px;
     display: grid;
     grid-template-columns: 20% 1fr;
     gap: 10%;
   }
   .main__h1{
-    font-size: calc(10px + 40 * (100vw / 1555));
+    font-size: calc(18px + 40 * (100vw / 1555));
     margin-bottom: 50px;
   }
   .main__span{
-    font-size: calc(10px + 10 * (100vw / 1555));
+    font-size: calc(18px + 10 * (100vw / 1555));
     font-weight: 700;
   }
   li,
   span,
   h1{
-    font-size: calc(10px + 10 * (100vw / 1555));
+    font-size: calc(18px + 10 * (100vw / 1555));
   }
   img{
     margin-bottom: 10%;
