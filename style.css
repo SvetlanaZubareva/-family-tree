@@ -1,0 +1,75 @@
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  @font-face {
+   font-family: "sunday";
+   font-style: normal;
+   font-weight: 400;
+   src: url("./fonts/sunday.woff2") format("woff2");
+   font-display: swap;
+ }
+  
+  html {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+  }
+  
+  body {
+    min-height: 100%;
+    font-family: "sunday";
+    font-size: 20px;
+    line-height: 42px;
+    font-weight: 400;
+    color: #0B101B;
+    background-color: rgb(216, 248, 219);
+    min-width: 320px;
+    max-width: 100%;
+    margin: 0 auto;
+    overflow-x: hidden;
+  }
+  html, body {
+    /* Убирает прокрутку по горизонтале, для мобильной версии */
+    overflow-x: hidden;
+}
+  button,
+  a{
+   cursor: pointer;
+   text-decoration: none;
+   color: black;
+  }
+  p,
+  h1,
+  h2,
+  h3{
+    margin: 0;
+  }
+  li{
+    list-style: none;
+    margin-right: 10px;
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+  .main__section{
+    padding: 50px 15% 50px;
+    display: grid;
+    grid-template-columns: 20% 1fr;
+    gap: 10%;
+  }
+  .main__h1{
+    font-size: 50px;
+    margin-bottom: 50px;
+  }
+  .main__span{
+    font-size: 25px;
+    font-weight: 700;
+  }
